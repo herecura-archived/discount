@@ -1,7 +1,7 @@
 pkgbase = discount
 	pkgdesc = A Markdown implementation written in C
 	pkgver = 2.1.7
-	pkgrel = 2
+	pkgrel = 3
 	url = http://www.pell.portland.or.us/~orc/Code/discount/
 	arch = i686
 	arch = x86_64
