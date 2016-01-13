@@ -3,8 +3,8 @@
 # Contributor: Patrick McCarty <pnorcks at gmail dot com>
 
 pkgname=discount
-pkgver=2.1.7
-pkgrel=3
+pkgver=2.1.8
+pkgrel=1
 pkgdesc="A Markdown implementation written in C"
 arch=('i686' 'x86_64')
 url="http://www.pell.portland.or.us/~orc/Code/discount/"
@@ -13,7 +13,7 @@ provides=('markdown')
 conflicts=('markdown')
 source=("https://github.com/Orc/${pkgname}/archive/v$pkgver.tar.gz"
         "no-ldconfig.patch")
-md5sums=('bc60abde3d36fe891802c59544591d63'
+md5sums=('d1c8e57e6c785f9711f61ec4dcfdaeee'
          '744609beab58d358a2109e622927f379')
 
 build() {
