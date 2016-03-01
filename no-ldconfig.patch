@@ -1,11 +1,10 @@
-diff -ru discount-2.0.5/configure.inc discount-2.0.5-new/configure.inc
---- discount-2.0.5/configure.inc	2011-01-24 17:05:44.000000000 -0800
-+++ discount-2.0.5-new/configure.inc	2011-01-31 23:04:47.966666672 -0800
-@@ -1240,7 +1240,6 @@
- install)$PROG_INSTALL -c \$FULLNAME "\$1"
+--- discount-2.1.8/configure.inc	2016-03-01 13:49:26.081501307 +0100
++++ discount-2.1.8-new/configure.inc	2016-03-01 14:19:56.826256866 +0100
+@@ -1332,7 +1332,6 @@
  	$PROG_LN_S -f \$FULLNAME \$1/\$LIBNAME.\$MAJOR
  	$PROG_LN_S -f \$FULLNAME \$1/\$LIBNAME
--	test "$LDCONFIG" && $LDCONFIG "\$1"
+ EOF
+-    test "$LDCONFIG" && echo '	'$LDCONFIG '"$1"' >> librarian.sh
+     cat >> librarian.sh << EOF
  	;;
  esac
- EOF
